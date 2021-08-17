@@ -1,0 +1,4 @@
+* @jakub-qak
+*.js @jakub-qak
+*.yml @jakub-qak
+/public/ @jakub-qak

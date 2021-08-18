@@ -19,7 +19,7 @@ jobs:
       - run: npm test -- --coverage
         env:
           CI: true 
-      - name: Build Project
+      - name: Build Project2
         if: github.event_name == 'push'
         run: npm run build
       - run: npm install -g surge
